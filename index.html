@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Projeto HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Arthur Machado</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="imagens/"C:\Users\Downloads\PHOTO-2024-10-08-14-17-19.jpg" alt="Sua Foto" class="foto-perfil">
+        <p>Sou um estudante de Análise e Desenvolvimento de Sistemas e gosto muito de ciência de dados. Ainda não sou formado, mas busco sempre aprimorar minhas habilidades e contribuir para projetos inovadores, todo dia estou estudando para melhorar em todas as linguagens e areas da tecnologia.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>Trabalho em equipe</li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>projeto 2</h3>
+            <p>Descrição breve: Esse tem responsabilidade em ser algo sólido e responsivo, as tecnologias utilizadas são HTML e CSS.</p>
+            <a href="https://github.com/thziin397/projeto1" target="_blank">Ver no GitHub</a>
+            <img src="imagens/projeto1.png" alt="Captura de Tela do Projeto 1">
+        </div>
+        <div class="projeto">
+            <h3>projeto 2</h3>
+            <p>Descrição breve: Aqui é algo mais pessoal com um design mais moderno e que com boas interações.</p>
+            <a href="https://github.com/thziin397/projeto2" target="_blank">Ver no GitHub</a>
+            <img src="imagens/projeto2.png" alt="Captura de Tela do Projeto 2">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="mailto:machadoarthur397@gmail.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Conecte-se comigo: 
+            <a href="https://www.linkedin.com/in/seuusuario" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/thziin397" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arthur Machado. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
